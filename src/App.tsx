@@ -1,11 +1,12 @@
 import React from "react";
-import "./App.css";
+import { AppContainer } from "./styles";
+import { Column } from "./Column";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <></>
-    </div>
+    <AppContainer>
+      <Column text="Todo:" />
+    </AppContainer>
   );
 }
 
